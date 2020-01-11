@@ -1,0 +1,221 @@
+body {
+    background: #242B33;
+    margin: 0 auto;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+
+    color: #ffffff;
+}
+.header {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+    background-image: url(/img/Rectangle.png);
+    min-height: 840px;
+
+
+}
+    .header-nav {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 30px;
+    }
+        .header-nav-list {
+            display: flex;
+            list-style: none;
+
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.05em;
+
+        }
+            .header-nav-list__item:not(:first-child) {
+                padding-left: 40px;
+                box-sizing: border-box;
+            }
+            .header-nav-list__item a {
+                text-decoration: none;
+                color: #ffffff
+            }
+            .header-nav-list__item a:hover {
+                text-decoration: underline;
+            }
+    .header-main {
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 65px;
+        text-align: center;
+
+        color: #D4C17F;
+    }
+        .header-main__text {
+            margin: 0 auto;
+        }
+        .header-main__mouse {
+            margin-top: 100px;
+        }
+    .header-contacts {
+        display: flex;
+        justify-content: center;
+
+        list-style: none;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+
+        margin-bottom: 74px;
+    }
+        .header-contacts__address {
+            margin: 0 100px 0 20px;
+        }
+        .header-contacts__number {
+            margin: 0 120px 0 20px;
+        }
+.second-screen {
+    position: relative;
+    
+    height: 100%;
+    max-height: 418px;
+
+    border: 1px #242B33 solid;
+}
+    .second-screen__image {
+        position: absolute;
+        right: 258px;
+        top: 80px;
+}
+    .second-screen-testimonials {
+
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+
+        margin: 120px auto 120px auto;
+
+        max-width: 800px;
+
+        box-sizing: border-box;
+    }
+        .second-screen-testimonials__item {
+            text-align: center;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 27px;
+        }
+        .second-screen-testimonials__item p {
+            margin-top: 52px;
+        }
+.third-screen {
+    position: relative;
+    max-height: 806px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .third-screen__image {
+        position: absolute;
+        left: 180px;
+        top: 70px;
+    }
+    .third-screen__text {
+        font-family: Playfair Display;
+        font-weight: bold;
+        font-size: 36px;
+        color: #D4C17F;
+        margin: 0 0 95px 0;
+
+    }
+    .third-screen__images {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 1300px;
+    }
+        .third-screen__images-item {
+            position: relative;
+            margin: 15px;
+            box-sizing: border-box;
+        }
+        .third-screen__images-item p {
+            position: absolute;
+            left: 50px;
+            bottom: 50px;
+
+            font-size: 24px;
+            line-height: 28px;
+
+        }
+.contacts {
+
+    background-image: url(/img/Rectangle\ \(3\).png);
+    max-height: 560px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .contacts-main {
+        flex-basis: 28%;
+        padding-top: 180px;
+        box-sizing: border-box;
+    }
+    .contacts-main:first-child {
+        padding-right: 35px;
+    }
+        .contacts-main h2 {
+            font-family: Playfair Display;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 48px;
+            color: #D4C17F;
+        }
+        .contacts-main p {
+            font-size: 16px;
+            line-height: 24px;
+        }
+    .contacts-form {
+        flex-basis: 28%;
+        padding-top: 245px;
+        box-sizing: border-box;
+        
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        max-height: 30%;
+    }
+        .contacts-form__input {
+            flex-basis: 235px;
+        }
+        .contacts-form__input:first-child {
+            margin-right: 30px;
+            box-sizing: border-box;
+        }
+        .contacts-form__input input {
+            width: 100%;
+        }
+        .contacts-form p {
+            flex-basis: 235px;
+            margin-right: 30px;
+            box-sizing: border-box;
+            text-align: center;
+            font-size: 13px;
+            line-height: 16px;
+        }
+        .contacts-form button {
+            flex-basis: 235px;
+
+        }
