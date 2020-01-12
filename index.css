@@ -118,7 +118,7 @@ body {
         }
 .third-screen {
     position: relative;
-    max-height: 806px;
+    min-height: 806px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -161,7 +161,7 @@ body {
 .contacts {
 
     background-image: url(img/Rectangle\ \(3\).png);
-    max-height: 560px;
+    min-height: 560px;
     
     display: flex;
     justify-content: center;
